@@ -1,0 +1,110 @@
+    1  pwd
+    2  ls
+    3  cd OneDrive/
+    4  ls
+    5  cd ../Videos
+    6  ls
+    7  cd ..
+    8  cd ..
+    9  pwd
+   10  clear
+   11  ls
+   12  cd sebas/
+   13  ls
+   14  cd Downloads/
+   15  dir
+   16  ls
+   17  cd ..
+   18  cd ..
+   19  cd SG/
+   20  cd Downloads/
+   21  cd Intro2023/
+   22  dir
+   23  cls
+   24  clear
+   25  ls
+   26  cd terminal/
+   27  ls
+   28  cd ..
+   29  cd terminal/
+   30  pwd
+   31  clear
+   32  mv prueba1.txt ../comandos
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls -R
+   37  clear
+   38  cd ..
+   39   cd..
+   40  cd ..
+   41  ls
+   42  cd Documents/
+   43  ls
+   44  cd 20230605-SebastianParuma/
+   45  clear
+   46  git init
+   47  git remote add origin https://github.com/sebastian-paruma/20230605-SebastianParuma.git
+   48  git push -u origin main
+   49  ls
+   50  ls -a
+   51  clear
+   52  touch comandos.txt main.js index.html
+   53  ls
+   54  git add .
+   55  git commit -m "commit 01 de SebastianParuma"
+   56  git config --global user.email "jsebastian.paruma@icloud.com"
+   57  git config --global user.name "Sebastian Paruma"
+   58  git add .
+   59  git commit -m "commit 01 de SebastianParuma"
+   60  git push origin main
+   61  git branch feature01
+   62  git checkout feature01
+   63  mkdir Terminal Hardware
+   64  ls
+   65  touch Hardware/resumen.txt Terminal/resumen.txt
+   66  ls -R
+   67  ls -1R
+   68  cd Hardware/
+   69  ls
+   70  cd ..
+   71  clear
+   72  ls
+   73  git add .
+   74  git commit -m "commit 02 de SebastianParuma"
+   75  git push origin feature01
+   76  git checkout feature01
+   77  git checkout -b feature02
+   78  ls
+   79  cd Terminal/resumen.txt
+   80  cd Terminal/
+   81  ls
+   82  nano resumen.txt
+   83  clear
+   84  cd ..
+   85  list
+   86  ls
+   87  cd Terminal/
+   88  ls
+   89  nano resumen.txt
+   90  cd ..
+   91  ls
+   92  cd Hardware/
+   93  ls
+   94  nano resumen.txt
+   95  clear
+   96  ls
+   97  nano resumen.txt
+   98  cd ..
+   99  clear
+  100  ls
+  101  git add .
+  102  git commit -m "commit 03 de SebastianParuma"
+  103  git push origin feature02
+  104  clear
+  105  git checkout main
+  106  clear
+  107  ls
+  108  mv comandos.txt comandosUtilizados.txt
+  109  ls
+  110  history
