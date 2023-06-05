@@ -1,0 +1,3 @@
+1. Placa base
+2. Procesador o CPU
+3. Memoria RAM

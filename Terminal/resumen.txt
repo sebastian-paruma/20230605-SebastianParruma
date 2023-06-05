@@ -1,0 +1,5 @@
+1. LS
+2. MKDIR
+3. MV
+4. CD
+5. PWD
